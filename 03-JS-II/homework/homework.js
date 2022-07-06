@@ -71,7 +71,7 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
-  switch (color){
+   switch (color){
     case 'blue':
       return "This is blue";
     case 'red':
@@ -214,7 +214,15 @@ function tieneTresDigitos(numero){
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
-  //Usar el bucle do ... while.
+  let resultado = numero;
+  let i = 0;
+  do {
+    i++
+    resultado = resultado + 5;
+  }
+  while (i < 8){
+    return resultado;
+  }
 }
 
 
