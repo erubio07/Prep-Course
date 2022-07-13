@@ -71,7 +71,7 @@ function map(array, cb) {
    }
    return nuevoArray;
 
-  //let nuevoArray = array.map (function) probar como hacerlo con .map
+  //let nuevoArray = array.map (function) probar como hacerlo con .map no olvidarme
 }
 
 function filter(array) {
